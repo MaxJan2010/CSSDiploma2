@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Welcome to my website">
+    <title>Element Styling</title>
+    <link rel="stylesheet" href="style.css">
+    <!--latest style sheet is the strongest-->
+    <link rel="stylesheet" href="secondstyle.css">
+
+    <script></script>
+    <!--any style inside <style> tag is stronger than all css sheets-->
+    <style>
+        .one{
+            color: red;
+        }
+
+    </style>
+</head>
+<body>
+<!--inline style is stronger than <style> tag-->
+<p class="one" style="color: greenyellow">This is Paragraph No. 01</p>
+<p class="two">This is Paragraph No. 02</p>
+<p id="three">This is Paragraph No. 03</p>
+
+</body>
+</html>
+
+<!--Public Element is strong styling-->
+<!--class is stronger than Public Element-->
+<!--latest class is stronger than class-->
+<!--latest style sheet is stronger than previous style sheet-->
+<!--<style> tag is stronger than latest style sheet-->
+<!--inline style is stronger than <style> tag-->

@@ -1,0 +1,30 @@
+div{
+    height: 2000px;
+    width: 500px;
+    /*background-color: red;  !*use Pre-Defined color*!*/
+    /*color: #FF0000; !*use HEX color*!*/
+    /*color: rgb(255,0,0); !*use Red Green Blue color*!*/
+    /*color: rgba(255,0,0,0.5); !*use Red Green Blue Alpha Channel (Transparently) color*!*/
+    /*color: hsl(0, 100%, 100%); !*use Hue Saturation Lightness color*!*/
+    /*color: hsla(0, 100%, 100%, 0.5); !*use Hue Saturation Lightness Alpha Channel (Transparently) color*!*/
+
+    /*background-image: url("images/image01.jpg");*/
+
+    /*background-repeat: repeat;*/
+    /*background-repeat: repeat-x;*/
+    /*background-repeat: repeat-y;*/
+    /*background-repeat: no-repeat;*/
+
+    /*background-attachment: fixed;*/
+    /*background-attachment: scroll;*/
+
+    /*background-position: top right;*/
+    /*background-position: bottom left;*/
+    /*background-position: center;*/
+    /*background-position: 0% 0%;*/
+    /*background-position: 30% 10%;*/
+
+    background: magenta url("images/image01.jpg") no-repeat scroll 10% 30%;
+
+    border: 2px solid red;
+}

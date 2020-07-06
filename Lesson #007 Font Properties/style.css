@@ -1,0 +1,27 @@
+p{
+    /*https://www.w3schools.com/cssref/css_websafe_fonts.asp*/
+    font-family: Arial, Tahoma, Serif, sans-serif;
+    /*font-family: "Times New Roman";*/
+    font-size: medium; /* medium => 16px*/
+}
+
+p span.ilatic{
+    color: red;
+    font-style: italic;
+}
+
+p span.small{
+    color: red;
+    font-size: small;
+}
+
+p span.bold{
+    color: red;
+    font-weight: bold;
+}
+
+/*font: font-style / font-weight / font-size/line-height / font-family*/
+
+div p{
+    font: italic bold 30px/40px Arial, Tahoma, Serif, sans-serif;
+}
